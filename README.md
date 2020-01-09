@@ -26,7 +26,7 @@
 
 ## 零件說明
 ### SG90 servo motor
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/blob/master/image/SG90%20serve.png)
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/blob/master/image/SG90_serve.png)
 
 * 如圖片所顯示的，分為control，GND，5V
   * GND部份去接地極
