@@ -26,7 +26,7 @@
 
 ## 零件說明
 ### SG90 servo motor
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90 serve.png)
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90_serve.png)
 
 ## 專案電路設計
 ![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/my_circuit.png)
