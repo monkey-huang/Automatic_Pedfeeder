@@ -25,11 +25,11 @@
 * 寵物碗
 
 ## 零件說明
-### SG90 servo motor 馬達
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90馬達.jpg)
+### SG90 servo motor
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90 serve.png)
 
 ## 專案電路設計
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/電路圖.jpg)
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/my_circuit.png)
 ## 專案各檔案說明
 
 ## raspberry pi裡套件安裝教學
