@@ -26,6 +26,12 @@
 
 ## 零件說明
 ### SG90 servo motor 馬達
-
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90馬達.jpg)
 
 ## 專案電路設計
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/電路圖.jpg)
+## 專案各檔案說明
+
+## raspberry pi裡套件安裝教學
+
+### keras套件安裝順序
