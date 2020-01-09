@@ -76,7 +76,7 @@ sudo apt-get install keras
   * $ sudo apt-get remove --purge --auto-remove [套件名稱]
   * 舉例:我要刪除libreoffice*的話：$ sudo apt-get remove --purge --auto-remove libreoffice*
 ## 影片demo
-
+https://www.youtube.com/watch?v=jJnUdHY9Uhk
 ## 參考網址
 
 * [寵物飼料器影片教學](https://www.youtube.com/watch?v=Gx2KbgzPnPU)
