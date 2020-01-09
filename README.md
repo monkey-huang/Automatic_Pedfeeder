@@ -26,12 +26,62 @@
 
 ## 零件說明
 ### SG90 servo motor
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/SG90 serve.png)
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/blob/master/image/SG90%20serve.png)
 
+* 如圖片所顯示的，分為control，GND，5V
+  * GND部份去接地極
+  * 5V去接5V電源
+  * control的部分為控制馬達
 ## 專案電路設計
-![image](https://github.com/monkey-huang/Automatic_Pedfeeder/tree/master/image/my_circuit.png)
+![image](https://github.com/monkey-huang/Automatic_Pedfeeder/blob/master/image/my_circuit.png)
+* 記得control pin接的是11pin，BCM是17，程式控制的時候會用BCM 17方式去控制
 ## 專案各檔案說明
+* camera.py：如檔案名稱，為拍照模組，拍完照之後會存在static的資料夾
+* my_model_detection.h5：這個為我自己用keras訓練好的CNN模型，也可用你們自己另外訓練好的
+* pretrainmodel.py：LOAD pretrainmodel與predict模組。
+* app_sg90.py：flask網站整合模組，整合以上兩個模組在這個檔案裡，並且用網站的方式呈現。
+## raspberry pi裡套件安裝教學，注意這是針對raspberry pi的
+### flask套件安裝順序
+```
+installing flask
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python-pip python-flask
+sudo pip install flask
 
-## raspberry pi裡套件安裝教學
-
+安裝 socketio
+pip install flask-socketio
+```
 ### keras套件安裝順序
+```
+sudo apt-get install python3-numpy
+sudo apt-get install libblas-dev
+sudo apt-get install liblapack-dev
+sudo apt-get install python3-dev 
+sudo apt-get install libatlas-base-dev
+sudo apt-get install gfortran
+sudo apt-get install python3-setuptools
+sudo apt-get install python3-scipy
+sudo apt-get update
+sudo apt-get install python3-h5py
+
+pip install scipy
+pip install cython --user
+pip install tensorflow
+pip install keras --user
+sudo apt-get install keras 
+```
+## 小問題解決方法指令
+* 刪除不要的套件
+  * $ sudo apt-get remove --purge --auto-remove [套件名稱]
+  * 舉例:我要刪除libreoffice*的話：$ sudo apt-get remove --purge --auto-remove libreoffice*
+## 影片demo
+
+## 參考網址
+
+* [寵物飼料器影片教學](https://www.youtube.com/watch?v=Gx2KbgzPnPU)
+* [伺服馬達PWM程式教學](https://blog.everlearn.tw/%E7%95%B6-python-%E9%81%87%E4%B8%8A-raspberry-pi/raspberry-pi-3-mobel-3-%E5%88%A9%E7%94%A8-pwm-%E6%8E%A7%E5%88%B6%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94)
+* [flask 按鈕範例網址與安裝教學](https://randomnerdtutorials.com/raspberry-pi-web-server-using-flask-to-control-gpios/)
+* [LOAD keras pretrain model教學](https://morvanzhou.github.io/tutorials/machine-learning/keras/3-1-save/)
+* [在raspberrypi上安裝keras套件教學](https://ai-pool.com/d/how-to-install-keras-on-raspberry-pi-)
+* [刪除不要的套件教學](http://yehnan.blogspot.com/2017/02/raspberry-pi.html)
