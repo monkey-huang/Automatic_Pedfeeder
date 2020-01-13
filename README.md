@@ -1,4 +1,4 @@
-# IOT project：Automatic_Pedfeeder
+# IOT project：Automatic_Petfeeder
 
 ## 專案由來
 由於家裡養了一隻貓咪，但是每次要手動倒飼料真的很麻煩，倒太多吃不完會招來昆蟲，倒太少又會被貓咪煩。於是想出一個影像辨識的方法，透過此方法讓飼料機器決定要不要倒飼料。
